@@ -3861,10 +3861,21 @@ table.wp-calendar-table caption {
 }
 
 .site-footer {
-	padding-top: 0;
-	padding-bottom: calc(1.7 * var(--global--spacing-vertical));
+	background-color: #007b5e;
+	max-width:100% !important;
 }
-
+.content-1, .content-2{
+	font-size: 15px !important;
+	color: #fff;
+}
+.icon, .content-1, .content-2{
+	margin: 0 auto !important;
+	text-align: center;
+	width: 100% !important;
+}
+.icon span{
+	padding: 0 5px;
+}
 .no-widgets .site-footer {
 	margin-top: calc(6 * var(--global--spacing-vertical));
 }
@@ -3876,16 +3887,16 @@ table.wp-calendar-table caption {
 }
 
 .site-footer > .site-info {
-	padding-top: var(--global--spacing-vertical);
 	color: var(--footer--color-text);
 	font-family: var(--footer--font-family);
 	font-size: var(--footer--font-size);
 	line-height: var(--global--line-height-body);
-	border-top: 3px solid var(--global--color-border);
+	width: 100% !important;
 }
 
 .site-footer > .site-info .site-name {
-	text-transform: var(--branding--title--text-transform);
+	width: 100%;
+	margin: 0 !important;
 	font-size: var(--branding--title--font-size);
 }
 
